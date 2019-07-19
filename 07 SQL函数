@@ -1,0 +1,32 @@
+算术函数:
+    ABS() 取绝对值
+    MOD() 取余
+    ROUND()  四舍五入为指定的小数位数
+    
+字符串函数:
+    CONCAT() 将多个字符串拼接起来
+    length() 长度 汉字为3个
+    char_length() 
+    lower() 小写
+    upper() 大写
+    replace() 替换函数 3个参数: 要替换的表达式或字段名, 想要查找的被替换字符串, 替换成哪个字符串
+    substring() 截取字符串, 3个参数: 待截取的表达式或字段名, 开始截取的位置, 想要截取的字符串长度
+    
+日期函数:
+    current_date() 系统当前日期
+    current_time() 系统当前时间,没有具体的日期
+    current_timestamp() 系统当前时间, 包括具体的日期+时间
+
+转换函数:
+    cast() 数据类型转换, 参数是一个表达式, 表达式通过AS关键词分割了2个参数, 分别是原始数据和目标数据类型
+    
+    
+聚集函数:
+    count()
+    max()
+    min()
+    sum()
+    avg()
+    
+    select count(*) from heros where hp_max > 6000;
+    
