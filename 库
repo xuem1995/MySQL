@@ -1,0 +1,11 @@
+# 创建数据库
+create DATABASE name;
+# 使用数据库
+use name;
+
+mysql 执行:
+Client/Server 架构, 服务器端程序使用的 mysqld 
+流程:
+连接层: 客户端和服务器端建立连接, 客户端发送SQL至服务器
+SQL层: 对SQL语句进行查询处理
+存储引擎层: 与数据库文件打交道, 负责数据的存储和读取
